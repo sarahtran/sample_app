@@ -7,7 +7,8 @@ gem 'rails', '3.2.12'
 
 group :development do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.13.0'
+  gem 'annotate', '2.5.0'
 end
 
 gem 'pg', :group => :production
